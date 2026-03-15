@@ -1,0 +1,9 @@
+torch>=2.1
+transformers>=4.39
+datasets>=2.18
+evaluate>=0.4.1
+seqeval>=1.2.2
+accelerate>=0.28
+optimum[onnxruntime]>=1.17.0
+onnxruntime>=1.17.0
+numpy>=1.26

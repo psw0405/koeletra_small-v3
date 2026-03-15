@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Training outputs / artifacts
+models/
+artifacts/
+
+# Local runtime libraries and archives
+third_party/
+*.zip
+
+# Build outputs
+cpp/build/
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+
+# Data files (keep private by default)
+*.jsonl
