@@ -3,21 +3,11 @@
 __pycache__/
 *.pyc
 
-# Training outputs / artifacts
-models/
-artifacts/
-
-# Local runtime libraries and archives
-third_party/
-*.zip
-
 # Build outputs
 cpp/build/
-*.obj
-*.exe
-*.dll
-*.lib
-*.pdb
+cpp/*.obj
+cpp/*.exe
 
-# Data files (keep private by default)
-*.jsonl
+# Files larger than GitHub hard limit (100MB) should stay out of git.
+models/**/optimizer.pt
+third_party/**/onnxruntime.pdb
